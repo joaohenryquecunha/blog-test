@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.capa{
+    background: url("https://img.freepik.com/fotos-gratis/um-carro-vermelho-e-prateado-com-a-palavra-ford-na-lateral_1340-23168.jpg?w=740&t=st=1686952875~exp=1686953475~hmac=d4f3837ef9c834646c14af2c8a2ea4e4205b1d6f42833174322c3ffd111269bf") no-repeat;
+    background-size: cover;
+    
+}
+
+.form-body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+h1 span{
+    color: blue(139,15,15);
+}
+
+input{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border:  none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 1px solid #838383;
+}
+ 
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 130px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
